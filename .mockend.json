@@ -10,8 +10,5 @@
     "post": {
       "belongsTo": "Post"
     }
-  },
-  "data": {
-    "list": "https://tc-res.xnxdgj.com/product/20210726122828/ad34e7136cdfd9f22666b8931a3b98a3.jpg?x-oss-process=image/resize,w_300,h_300"
   }
 }
