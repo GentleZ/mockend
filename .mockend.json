@@ -3,9 +3,16 @@
     "title": { "string": {} },
     "likes": { "int": { "min": 0, "max": 1000000 } },
     "code": { "int": [100,200,300] },
+    "imgArr": { "hasMany": "Image" },
     "comments": {
       "hasMany": "Comment"
     }
+  },
+  "Image": {
+    "imgUrl": { "string": [
+      "https://tc-res.xnxdgj.com/product/20210726122828/ad34e7136cdfd9f22666b8931a3b98a3.jpg?x-oss-process=image/resize,w_300,h_300", 
+      "https://tc-res.xnxdgj.com/product/20210726122828/b59a7f79a6b81a3c2eb8a104903bc198.jpg?x-oss-process=image/resize,w_300,h_300",
+    ]}
   },
   "Comment": {
     "body": { "string": {} },
