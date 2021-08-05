@@ -2,6 +2,7 @@
   "Post": {
     "title": { "string": {} },
     "likes": { "int": { "min": 0, "max": 1000000 } },
+    "test": { "code": { "int": [100,200,300]} },
     "comments": {
       "hasMany": "Comment"
     }
